@@ -65,7 +65,7 @@ const SlackFeedback = styled.div`
   font-family: ${theme('fontFamily', 'inherit')};
   z-index: 99999998;
   bottom: 12px;
-  right: 0;
+  left: 0;
   margin: 1em;
   text-align: left;
   font-weight: ${theme('content.fontWeight', 400)};
@@ -109,7 +109,7 @@ const Container = styled.div`
   border-radius: 4px;
   width: ${theme('content.width', '360px')};
   bottom: ${theme('content.bottom', '65px')};
-  right: 0;
+  left: 0;
   box-shadow: ${theme('content.boxShadow')};
   ${animationFadeOutDown};
 
@@ -160,7 +160,7 @@ const Trigger = styled.div`
   display: flex;
   align-items: center;
   position: absolute;
-  right: 0;
+  left: 0;
   bottom: 0;
   align-items: center;
   font-weight: ${theme('trigger.fontWeight', 'normal')};
