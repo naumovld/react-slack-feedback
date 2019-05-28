@@ -1,8 +1,8 @@
 export default {
   colors: {
-    primary: '#3579f5',
-    secondary: 'black',
-    background: 'black'
+    primary: '#705fe1',
+    secondary: '#1b1c1c',
+    background: '#1b1c1c'
   },
   content: {
     padding: '0 0.75em 1em',
@@ -11,7 +11,7 @@ export default {
   trigger: {
     color: 'white',
     hoverColor: 'white',
-    backgroundColor: 'black',
+    backgroundColor: '#1b1c1c',
     border: 'none',
     padding: '14px 1.25em',
     borderRadius: '6px',

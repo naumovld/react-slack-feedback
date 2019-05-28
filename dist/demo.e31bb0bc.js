@@ -34362,14 +34362,14 @@ exports.Icon = Icon;
 var Trigger = _styledComponents["default"].div.withConfig({
   displayName: "styles__Trigger",
   componentId: "sc-1ifjbhw-7"
-})(["display:flex;align-items:center;position:absolute;left:0;bottom:0;align-items:center;font-weight:", ";background:", ";color:", ";border:1px solid ", ";white-space:nowrap;padding:", ";border-radius:", ";cursor:pointer;font-size:", ";box-shadow:", ";transition:box-shadow 0.3s,transform 0.2s ease-in,color 0.2s;&:hover{box-shadow:", ";background-color:", " transform:translateY(-1px);color:", ";border-color:", ";}img{margin-right:8px;}"], theme('trigger.fontWeight', 'normal'), theme('trigger.backgroundColor'), theme('trigger.color'), theme('trigger.border'), theme('trigger.padding'), theme('trigger.borderRadius'), theme('trigger.fontSize'), theme('trigger.boxShadow'), theme('trigger.hoverBoxShadow'), theme('trigger.hoverBackgroundColor', 'inherit'), theme('trigger.hoverColor'), theme('colors.border'));
+})(["display:flex;align-items:center;position:absolute;left:0;bottom:0;align-items:center;font-weight:", ";background:", ";color:", ";border:1px solid ", ";white-space:nowrap;padding:", ";border-radius:", ";cursor:pointer;font-size:", ";box-shadow:", ";transition:box-shadow 0.3s,transform 0.2s ease-in,color 0.2s;&:hover{box-shadow:", ";background-color:", " transform:translateY(-1px);color:white;font-weight:900;border-color:", ";}img{margin-right:8px;}"], theme('trigger.fontWeight', 'normal'), theme('trigger.backgroundColor'), theme('trigger.color'), theme('trigger.border'), theme('trigger.padding'), theme('trigger.borderRadius'), theme('trigger.fontSize'), theme('trigger.boxShadow'), theme('trigger.hoverBoxShadow'), theme('trigger.hoverBackgroundColor', 'inherit'), theme('colors.border'));
 
 exports.Trigger = Trigger;
 
 var Tabs = _styledComponents["default"].ul.withConfig({
   displayName: "styles__Tabs",
   componentId: "sc-1ifjbhw-8"
-})(["display:flex;list-style:none;padding:0;margin:0;margin-bottom:0.85em;> li{flex:1 0 calc(100% / 3);user-select:none;background:", ";color:", ";text-align:center;padding:", ";font-size:13px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border:", ";&.selected{border-color:", ";background:", ";color:white;position:relative;}&:hover:not(.selected){border:", ";}&:first-of-type{border-radius:4px 0 0 4px;margin-right:-1px;}&:last-of-type{border-radius:0 4px 4px 0;margin-left:-1px;}}"], theme('tab.backgroundColor'), theme('tab.color'), theme('tab.padding', '0.75em'), theme('tab.border'), theme('colors.primary'), theme('colors.primary'), theme('tab.border'));
+})(["display:flex;list-style:none;padding:0;margin:0;margin-bottom:0.85em;> li{flex:1 0 calc(100% / 3);user-select:none;background:", ";color:", ";text-align:center;padding:", ";font-size:13px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border:", ";&.selected{border-color:", ";background:#1a73e8;color:white;position:relative;}&:hover:not(.selected){border:", ";}&:first-of-type{border-radius:4px 0 0 4px;margin-right:-1px;}&:last-of-type{border-radius:0 4px 4px 0;margin-left:-1px;}}"], theme('tab.backgroundColor'), theme('tab.color'), theme('tab.padding', '0.75em'), theme('tab.border'), theme('colors.primary'), theme('tab.border'));
 
 exports.Tabs = Tabs;
 
@@ -34390,7 +34390,7 @@ exports.UploadButton = UploadButton;
 var Label = _styledComponents["default"].label.withConfig({
   displayName: "styles__Label",
   componentId: "sc-1ifjbhw-11"
-})(["color:", ";display:block;font-size:", ";margin:5px 0;"], theme('colors.primary'), theme('label.fontSize'));
+})(["color:white;display:block;font-size:", ";margin:5px 0;"], theme('label.fontSize'));
 
 exports.Label = Label;
 
@@ -34411,7 +34411,7 @@ exports.SubmitButton = SubmitButton;
 var PreviewOverlay = _styledComponents["default"].div.withConfig({
   displayName: "styles__PreviewOverlay",
   componentId: "sc-1ifjbhw-14"
-})(["position:absolute;top:0;right:0;bottom:0;left:0;text-align:center;background:", ";opacity:0;&:hover{opacity:1;}span{position:absolute;top:50%;left:50%;z-index:2;transform:translate(-50%,-50%);padding:1em 3em;font-size:12px;text-transform:uppercase;color:#ffffff;border-radius:4px;cursor:pointer;background:", ";transition:background 0.15s;&:hover{background:", ";}}"], theme('overlay.backgroundColor'), theme('overlay.backgroundColor'), theme('colors.secondary'));
+})(["position:absolute;top:0;right:0;bottom:0;left:0;text-align:center;background:", ";opacity:0;&:hover{opacity:1;}span{position:absolute;top:50%;left:50%;z-index:2;transform:translate(-50%,-50%);padding:1em 3em;font-size:12px;text-transform:uppercase;color:black;border-radius:4px;cursor:pointer;background:", ";transition:background 0.15s;&:hover{background:", ";}}"], theme('overlay.backgroundColor'), theme('overlay.backgroundColor'), theme('colors.secondary'));
 
 exports.PreviewOverlay = PreviewOverlay;
 
@@ -34984,9 +34984,9 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = void 0;
 var _default = {
   colors: {
-    primary: '#3579f5',
-    secondary: 'black',
-    background: 'black'
+    primary: '#705fe1',
+    secondary: '#1b1c1c',
+    background: '#1b1c1c'
   },
   content: {
     padding: '0 0.75em 1em',
@@ -34995,7 +34995,7 @@ var _default = {
   trigger: {
     color: 'white',
     hoverColor: 'white',
-    backgroundColor: 'black',
+    backgroundColor: '#1b1c1c',
     border: 'none',
     padding: '14px 1.25em',
     borderRadius: '6px',
@@ -35417,7 +35417,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "32957" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42771" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

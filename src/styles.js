@@ -179,7 +179,8 @@ const Trigger = styled.div`
     box-shadow: ${theme('trigger.hoverBoxShadow')};
     background-color: ${theme('trigger.hoverBackgroundColor', 'inherit')}
     transform: translateY(-1px);
-    color: ${theme('trigger.hoverColor')};
+    color: white;
+    font-weight: 900;
     border-color: ${theme('colors.border')};
   }
 
@@ -211,7 +212,7 @@ const Tabs = styled.ul`
 
     &.selected {
       border-color: ${theme('colors.primary')};
-      background: ${theme('colors.primary')};
+      background: #1a73e8;
       color: white;
       position: relative;
     }
@@ -259,7 +260,7 @@ const UploadButton = styled.label`
 `
 
 const Label = styled.label`
-  color: ${theme('colors.primary')};
+  color: white;
   display: block;
   font-size: ${theme('label.fontSize')};
   margin: 5px 0;
@@ -356,7 +357,7 @@ const PreviewOverlay = styled.div`
     padding: 1em 3em;
     font-size: 12px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: black;
     border-radius: 4px;
     cursor: pointer;
     background: ${theme('overlay.backgroundColor')};
