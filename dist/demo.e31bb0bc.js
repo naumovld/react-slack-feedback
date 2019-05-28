@@ -35037,7 +35037,7 @@ exports["default"] = _default;
 
 module.exports = {
   "name": "react-slack-feedback",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "React component for gathering user feedback to send to slack.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
